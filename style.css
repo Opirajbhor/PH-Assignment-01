@@ -204,4 +204,30 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 14px;
+    gap: 8px;
+}
+.footer-logo{
+    font-family: inter, raleway;
+    font-size: 100px;
+    color: #4E47FF;
+    font-weight: bolder;
+    margin-top: 104px;
+}
+footer p{
+    color: #8987A1;
+    font-size: 15px;
+}
+.footer-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    margin-bottom: 103px;
+    margin-top: 20px;
+}
+.footer-links a{
+    color: #8987A1;
+    font-size: 15px;
+
 }
