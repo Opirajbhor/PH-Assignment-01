@@ -15,7 +15,7 @@
     font-family: Raleway,sans-serif;
 }
 
-button{
+button, .btn{
     background-color: #4E47FF;
     font-size: 16px;
     font-weight: bold;
@@ -25,9 +25,13 @@ button{
     padding: 12px 36px ;
     cursor: pointer;
 }
+input, textarea{
+    outline: none;
+    border: none;
+}
 
 /* button hover */
-button:hover{
+button:hover, .btn:hover{
     background-color: #7e06d9;
     
 }
@@ -41,6 +45,9 @@ button:hover{
 a{
     text-decoration: none;
     color: black;
+}
+textarea{
+    resize: none;
 }
 
 /* header css ********** */
@@ -116,6 +123,7 @@ header{
     gap: 40px;
     margin: auto;
     border-radius: 24px;
+    
 }
 
 .productive-user-section h2{
@@ -136,4 +144,55 @@ header{
     font-size: 20px;
     color: #00000074;
     text-align: center;
+}
+
+/* lets-get-in-touch-section */
+.lets-get-in-touch-section{
+    gap: 115px;
+    margin-top: 93px;
+    background-color: #4d47ff12;
+    width: 1140px;
+    height: 632px;
+    margin: auto;
+    margin-top: 93px;
+    border-radius: 20px;
+}
+.lets-get-in-touch-section h1{
+    font-size: 97px;
+    font-weight: bold;
+}
+.lets-get-in-touch-section form{
+    display: flex;
+    flex-direction: column;
+     align-items: last baseline;
+    justify-content: left;
+    gap: 10px;
+  
+}
+
+.lets-get-in-touch-section form label{
+    font-size: 18px;
+    color: black;
+    font-family: inter, Raleway;
+    margin: 10px 0px;
+}
+.lets-get-in-touch-section form input{
+    padding: 20px;
+    width: 497px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+}
+.lets-get-in-touch-section form textarea{
+    padding: 20px;
+    width: 497px;
+    height: 167px;
+    border-radius: 10px;
+    border: none;
+}
+
+.lets-get-in-touch-section form input::placeholder, .lets-get-in-touch-section form textarea::placeholder{
+    font-size: 20px;
+    font-family: inter, raleway;
+    color: #00000082;
 }
