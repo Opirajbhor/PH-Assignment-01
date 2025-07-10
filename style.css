@@ -56,7 +56,7 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(/Assets/Hero-bg.png);
+    background-image: url(./Assets/Hero-bg.png);
 }
 .nav-bar{
     display: flex;
@@ -195,4 +195,13 @@ header{
     font-size: 20px;
     font-family: inter, raleway;
     color: #00000082;
+}
+
+
+/* footer section */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
