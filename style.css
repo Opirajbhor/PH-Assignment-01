@@ -69,3 +69,33 @@ header{
     font-weight: bold;
     margin-bottom: 37px;
 }
+
+/* action-section */
+.action-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 220px;
+    margin: 116px 0px;
+}
+.action-section-left{
+    margin-left: 141px;
+}
+.action-section-left h3{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.action-section-left p{
+    font-size: 24px;
+    color: #2524326d;
+    margin: 23px 0px;
+}
+
+.action-section-right img{
+    width: 403px;
+    height: 328px;
+    border: none;
+    border-radius: 28px;
+    margin-right: 159px;
+}
