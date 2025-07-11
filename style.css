@@ -24,6 +24,7 @@ button, .btn{
     border-radius: 10px;
     padding: 12px 36px ;
     cursor: pointer;
+    font-size: 16px;
 }
 input, textarea{
     outline: none;
@@ -32,8 +33,10 @@ input, textarea{
 
 /* button hover */
 button:hover, .btn:hover{
-    background-color: #7e06d9;
-    
+    background-color: #e6e941;
+    font-size: 17px;
+    transition: 0.4s;
+    color: black;
 }
 
 .flex{
@@ -146,6 +149,65 @@ header{
     text-align: center;
 }
 
+/* user-feedback-section */
+.Users-Feedback-main-Section{
+    text-align: center;
+    margin: 137px 150px;
+}
+.Users-Feedback-main-Section h2{
+    font-size: 42px;
+    font-weight: bold;
+}
+.Users-Feedback-Section{
+    margin-top: 50px;
+    gap: 20px;
+    text-align: left;
+}
+.users-feedback-section-data {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    
+}
+
+.users-feedback-section-data h3{
+    font-size: 25px;
+    margin: 8px 0px;
+
+
+}
+.users-feedback-section-data p {
+    font-size: 17px;
+}
+.star-review{
+    color: #FFB805;
+    font-size: 20px;
+    flex-direction: row;
+    gap: 6px;
+    justify-content: left;
+
+}
+
+.user-profile{
+    justify-content: left;
+    gap: 8px;
+    margin: 24px 0px;
+}
+.user-profile img{
+    border: none;
+    border-radius: 50%;
+}
+.user-profile h5{
+    color: #707072;
+    margin: 5px 0px;
+    font-size: 14px;
+}
+.user-profile p{
+    color: #8987A1;
+    font-size: 12px;
+}
+
 /* lets-get-in-touch-section */
 .lets-get-in-touch-section{
     gap: 115px;
@@ -206,6 +268,7 @@ footer{
     justify-content: center;
     margin-top: 14px;
     gap: 8px;
+    
 }
 .footer-logo{
     font-family: inter, raleway;
@@ -231,3 +294,5 @@ footer p{
     font-size: 15px;
 
 }
+
+
